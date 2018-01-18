@@ -9,8 +9,8 @@
 
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
   animation-name: example;
-  animation-duration: 0.5s;
-  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
