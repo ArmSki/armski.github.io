@@ -5,7 +5,7 @@ var  nav = document.getElementById('nav');
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
         document.getElementById("myBtn").style.display = "block";
         nav.classList.add("Anime");
         nav.classList.remove("Black");

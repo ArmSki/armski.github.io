@@ -7,13 +7,12 @@
 .Anime{
   background-color: transparent;
 
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-
-    animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes example {
