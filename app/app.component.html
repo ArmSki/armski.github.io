@@ -1,0 +1,49 @@
+<div style="max-width: 100%;" class="container">
+    <div class="header">
+        <nav [ngClass]="{'Anime': onWindowScroll()}" class="navbar" id="nav">
+        <div class="logo">
+            <a href="#">
+            <img style="max-height: 40px;" src="../../assets/logo.png" alt="">
+            </a>
+        </div>
+        <ul>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/"
+                >Home</a></li>
+            <li><a 
+                 routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/armenia'"
+                >Armenia</a></li>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/tours'"
+               >Tours</a></li>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/gallery'"
+                >Gallery</a></li>
+            <li><a 
+                 routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/videos'"
+                >Videos</a></li>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/events'"
+                >Events</a></li>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/blog'"
+                >Blog</a></li>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/about-us'"
+                >About Us</a></li>
+            <li><a 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="'/contact-us'"
+                >Contact Us</a></li>
+        </ul>
+        </nav>
+  </div>
+  <div class="mainWpaper">
+      <img class="mainWpaper" src="../../assets/img0.png" alt="">
+  </div>
+
+  <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+</div>
