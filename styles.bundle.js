@@ -62,7 +62,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\n    background-color: white;\n    margin: 0px;\n    height: 2000px;\n    overflow-x: hidden;\n}\n\n* {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n\n.mainWpaper {\n    display: block;\n    width: 100%;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box\n  }", ""]);
+exports.push([module.i, "body {\n    background-color: white;\n    margin: 0px;\n    overflow-x: hidden;\n}\n\n* {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n\n.mainWpaper {\n    display: block;\n    width: 100%;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box\n  }", ""]);
 
 // exports
 
